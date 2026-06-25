@@ -1,33 +1,44 @@
 # UML
+# UML
 
-> Estado: 🔴 Pendiente | Última actualización: 2026-06-16
-> Autor: Por definir | Equipo: Por definir
+> Estado: 🟢 Estable | Última actualización: 2026-06-24
+> Autor: Equipo ADSO 3145555 | Equipo: Arquitectura / Diseño
 
-Repositorio de diagramas UML y arquitectura visual. Todo diagrama debe tener fuente editable y exportación revisable.
+## Resumen
 
-## Convenciones
+Diagramas UML y fuentes asociadas (PlantUML, drawio, etc.). Incluye exportaciones para documentación y presentaciones, y las fuentes editables para mantenimiento.
 
-- Fuentes en `diagrams/source/` con extensión `.wsd` o `.puml`
-- Exportaciones en `diagrams/exports/` con formato `.svg` preferido
-- Nombre de archivo: `<dominio>-<tipo>.<ext>` (ej: `horario-sequence.wsd`)
-- Todo diagrama debe registrarse en [diagram-index.md](./diagram-index.md)
+## Contenido
 
-## Tipos de diagrama
-
-| Tipo | Archivo fuente |
-|------|---------------|
-| Casos de uso | `*-use-case.wsd` |
-| Clases | `*-class.wsd` |
-| Secuencia | `*-sequence.wsd` |
-| Actividad | `*-activity.wsd` |
-| Estado | `*-state.wsd` |
-| Componentes | `*-component.wsd` |
-| Despliegue | `*-deployment.wsd` |
+Este directorio contiene diagramas UML, fuentes y exportaciones. Mantener fuentes editables (PlantUML, drawio) y exportaciones en `diagrams/exports`.
 
 ## Archivos
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| [diagram-index.md](./diagram-index.md) | Índice de fuentes y exportaciones de diagramas | 🔴 |
-| [diagrams/source/](./diagrams/source/) | Fuentes editables de diagramas | 🔴 |
-| [diagrams/exports/](./diagrams/exports/) | Exportaciones SVG o PNG | 🔴 |
+| [diagram-index.md](./diagram-index.md) | Índice de diagramas con enlaces a fuentes y exportaciones. | 🟢 |
+| [diagrams/](./diagrams/) | Fuentes y exportaciones de diagramas (subcarpetas `source/` y `exports/`). | 🟢 |
+## Tipos de diagrama
+
+| Tipo | Archivo fuente | Descripción |
+|------|---------------|-------------|
+| Casos de uso | `*-use-case.wsd` | Actores y funcionalidades del sistema. |
+| Clases | `*-class.wsd` | Estructura estática del dominio. |
+| Secuencia | `*-sequence.wsd` | Interacciones entre objetos en el tiempo. |
+| Actividad | `*-activity.wsd` | Flujos de trabajo y procesos. |
+| Estado | `*-state.wsd` | Ciclo de vida de una entidad. |
+| Componentes | `*-component.wsd` | Estructura de componentes y dependencias. |
+| Despliegue | `*-deployment.wsd` | Topología física de despliegue. |
+
+## Archivos
+
+| Archivo | Descripción | Estado |
+|---------|-------------|--------|
+| [diagram-index.md](./diagram-index.md) | Índice de fuentes y exportaciones de diagramas. | 🟡 En progreso |
+| [diagrams/source/](./diagrams/source/) | Fuentes editables de diagramas. | 🟡 En progreso |
+| [diagrams/exports/](./diagrams/exports/) | Exportaciones SVG o PNG. | 🟡 En progreso |
+
+## Referencias
+
+- [05-architecture/overview.md](../05-architecture/overview.md)
+- [02-domain/domain-map.md](../02-domain/domain-map.md)

@@ -31,7 +31,4 @@ El proyecto **Horarios SENA** resuelve estos problemas mediante una plataforma c
 
 ## Referencias
 
-- Manual de Diseño Curricular SENA
-- Ley 119 de 1994 — Estructura y misión del SENA
-- [scope.md](./scope.md) — Alcance detallado del proyecto
-- [glossary.md](./glossary.md) — Glosario de términos
+- Acuerdo 009 de 2024
