@@ -3,6 +3,10 @@
 > Estado: 🟢 Estable | Última actualización: 2026-06-24
 > Autor: Equipo ADSO 3145555 | Equipo: Arquitectura / Dominio
 
+## Resumen
+
+Documentación del modelo de dominio, lenguaje ubicuo, entidades y reglas de negocio del sistema Horarios SENA. Esta sección captura conceptos del dominio que deben ser independientes de decisiones de implementación.
+
 ## Contenido
 
 Aquí se define el modelo de dominio, las entidades principales, reglas de negocio y eventos relevantes que ocurren en el sistema.
